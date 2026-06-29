@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+venv/
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Uploads
+app/uploads/songs/*
+app/uploads/thumbnails/*
+
+# Keep folders
+!app/uploads/songs/.gitkeep
+!app/uploads/thumbnails/.gitkeep
+
+# Alembic
+*.pyc
